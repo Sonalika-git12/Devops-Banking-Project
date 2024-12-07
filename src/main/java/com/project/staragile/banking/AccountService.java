@@ -10,7 +10,7 @@ public class AccountService {
 	AccountRepository accountRepository;
 	
 	public Account createAccount() {
-		Account account = new Account(1010101010,"Shubham","Saving Account",20000.0);
+		Account account = new Account(1010101010,"Geetansh","Saving Account",20000.0);
 		return accountRepository.save(account);
 	}
 
@@ -23,7 +23,7 @@ public class AccountService {
 	}
 	
 	public Account registerDummyAccount() {
-		Account account = new Account(1010101010,"Shubham","Saving Account",20000.0);
+		Account account = new Account(1010101010,"Geetansh","Saving Account",20000.0);
 		return account;
 	}
 
