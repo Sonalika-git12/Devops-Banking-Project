@@ -3,8 +3,7 @@ kind: Deployment
 metadata:
   name: banking-project-deployment
   labels:
-  name: banking-project
-    app: 
+    app: banking-project
 spec:
   replicas: 1
   selector:
