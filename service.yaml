@@ -8,5 +8,5 @@ spec:
   ports:
     - protocol: TCP
       port: 80  # Exposed port on the Service
-      targetPort: 8085  # Port inside the container (Tomcat)
+      targetPort: 8081  # Port inside the container (Tomcat)
   type: LoadBalancer  # External acces
